@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head data-page-config="{&quot;site&quot;:&quot;http://www.infojobs.net&quot;,&quot;xitiPortalLevelTwo&quot;:1,&quot;staticPath&quot;:&quot;//es-static0.infojobs.com&quot;,&quot;portalImgPath&quot;:&quot;//media.infojobs.net/portales/ij/&quot;,&quot;currentLocale&quot;:&quot;es&quot;,&quot;requestId&quot;:&quot;efd5827d-e30f-4967-8030-20153813c94a&quot;,&quot;xitiPortalLevelOne&quot;:463787,&quot;basePortal&quot;:0}"><meta name="theme-color" content="#2088C2" />
+<meta charset="ISO-8859-15" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="publisher" href="https://google.com/+infojobs" />
+<link rel="prefetch" href="//media.infojobs.net/appgrade/backgrounds/bg-logo-claim-empleo.svg" />
+
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"Ug8GVVFRGwcHUlBQDgI="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(14),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,-1!==o.indexOf("dev")&&(s.dev=!0),-1!==o.indexOf("nr_dev")&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f?f.apply(this,a(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(15),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7);t("loader").features.stn=!0,t(6);var c=NREUM.o.EV;o.on("fn-start",function(t,e){var n=t[0];n instanceof c&&(this.bstStart=Date.now())}),o.on("fn-end",function(t,e){var n=t[0];n instanceof c&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on("fn-end",function(t,e){i("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),s.on("fn-start",function(){this.bstStart=Date.now()}),s.on("fn-end",function(t,e){i("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on("pushState-start",function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on("pushState-end",function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(t){i("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(t){i("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",r,!1),document.addEventListener("keypress",r,!1),document.addEventListener("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(16)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(16)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(16)(r);e.exports=r,o.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(16)(i);e.exports=i,a.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),a.inPlace(window,["setInterval"],"setInterval-"),a.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),i.on("setInterval-start",r),i.on("setTimer-start",o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,v,"fn-",s)}function i(t){w.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<w.length;t++)r([],w[t]);w.length&&(w=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(16)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",v=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],w=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;l>r;r++)t.removeEventListener(d[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return i(r)}function i(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}function a(t,e){var n=f(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var s=t("loader");if(s.xhrWrappable){var c=t("handle"),f=t(11),u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(13),m=window.XMLHttpRequest;s.features.xhr=!0,t(9),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||10>h)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},a(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var a=i(r);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;l>s;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(t,e){return function(){o(t,[(new Date).getTime()].concat(a(arguments)),null,e)}}var o=t("handle"),i=t(14),a=t(15);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var s=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(s,function(t,e){newrelic[e]=r(f+e,"api")}),i(c,function(t,e){newrelic[e]=r(f+e)}),e.exports=newrelic,newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),o("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],14:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],15:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],16:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(15),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);var u=f[v[n]];return u&&u.push([w,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",v[n]=e,e in f||(f[e]=[])})}var m={},v={},w={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return w}function i(){return new r}var a="nr@context",s=t("gos"),c=t(14),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!m++){var t=h.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(l,function(e,n){t[e]||(t[e]=n)});var n="https"===d.split(":")[0]||t.sslForHttp;h.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=h.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(14),f=window,u=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var d=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-943.min.js"},p=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),h=e.exports={offset:a(),origin:d,features:{},xhrWrappable:p};u.addEventListener?(u.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(u.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),s("mark",["firstbyte",a()],null,"api");var m=0},{}]},{},["loader",2,10,4,3]);</script>
+<link rel="icon" href="//media.infojobs.net/appgrade/icons/ico-favicon-ij-192x192.png" sizes="192x192" />
+
+	<title>Oferta de empleo: Oficial peluquería en San Agustin Del Guadalix (Madrid) - Bolsa trabajo InfoJobs</title>
+    
+    
+    
+    
+    
+    
+    
+
+	
+    <script type="text/javascript" src="//static.criteo.net/js/ld/ld.js" async="true"></script>
+
+    
+
+	<meta name="Description" content="Trabaja de oficial-peluqueria en la empresa Como me Cortas S.L.. Envía tu curriculum vitae a Como me Cortas S.L. a través de InfoJobs Empleo" />
+	<meta name="Keywords" content="trabajo, oficial-peluqueria, trabajar en Como me Cortas S.L., empleo de oficial-peluqueria, empleo, oferta de trabajo en Como me Cortas S.L. " />
+	
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="Infojobs" />
+	<meta name="twitter:title" content="Oficial peluquería - Como me Cortas S.L." />
+	<meta name="twitter:description" content="Buscamos profesionales de la peluquería de señora y caballero con conocimientos en todo tipo de técnicas de color y corte. Somos un salón de la zona norte que dispone de más de 200 metros dedicados..." />
+	<meta name="og:title" content="Oficial peluquería - Como me Cortas S.L." />
+	<meta name="og:description" content="Buscamos profesionales de la peluquería de señora y caballero con conocimientos en todo tipo de técnicas de color y corte. Somos un salón de la zona norte que dispone de más de 200 metros dedicados..." />
+	<meta name="og:image" content="//media.infojobs.net/portales/ij/app/pictures/pic-og-image.jpg" />
+	<meta name="og:image:secure_url" content="//media.infojobs.net/portales/ij/app/pictures/pic-og-image.jpg" />
+<script type="text/javascript">/*<![CDATA[ */
+
+ var JSMensajes = {};
+JSMensajes["ver-oferta.confirmacion"] = 'Has enviado esta oferta de empleo a ';
+JSMensajes["campo_obligatorio"] = 'Campo obligatorio';
+/*]]> */
+</script><script type="text/javascript" src="/static/oferta-F73CE54A5EFE529418017860151CA6AF.js"></script><link type="text/css" rel="stylesheet" href="/static/candidates-264F20AA4859D3CFD533E844666C96F6.css" /><script type='text/javascript'>
+var utag_data = {};
+utag_data.ads_name_page='Oficha';
+utag_data.company_id='98565457555750671111095016105953401586';
+utag_data.company_name='como-me-cortas-s-l';
+utag_data.company_profile_id='98565457555750671111095016105953407009';
+utag_data.contract_length='';
+utag_data.contract_type='1';
+utag_data.detail_id='ad21b1235e441aaa961046b96d5e29';
+utag_data.event_name='detail';
+utag_data.offer_category='180';
+utag_data.offer_country='17';
+utag_data.offer_experience='6';
+utag_data.offer_geo_city='san-agustin-del-guadalix-madrid';
+utag_data.offer_geo_region='33';
+utag_data.offer_salary_max='1200';
+utag_data.offer_salary_min='900';
+utag_data.offer_salary_range='2';
+utag_data.offer_segment='11';
+utag_data.offer_subcategory='3123';
+utag_data.position='3';
+utag_data.seccion='Oficha';
+utag_data.study_level='160';
+utag_data.xiti_is_enabled='true';
+
+var _T = {
+};</script><script type='text/javascript'>(function(a,b,c,d){ 
+	 a='//tags.tiqcdn.com/utag/schibsted/infojobs/prod/utag.js'; 
+	 b=document; 
+	 c='script'; 
+	 d=b.createElement(c); 
+	 d.src=a; 
+	 d.type='text/java'+c; 
+	 d.async=true; 
+	 a=b.getElementsByTagName(c)[0]; 
+	 a.parentNode.insertBefore(d,a); 
+})();</script></head>
+<body class="es">
+<div id="main-wrapper" class="wrapper wrapper-slotbanner half-page-ad" data-vars="{&quot;forceLogin&quot;:true,&quot;ofertaCodigo&quot;:&quot;ad21b1235e441aaa961046b96d5e29&quot;}">
+
+<!-- 	FIXME -->
+<!-- 	Provisionalmente se coloca esta llamada js en el body y no en el header por: -->
+<!-- 	Como es un ftl dinamico no se agrupa con el resto de js que se encuentran en .../static/... -->
+<!-- 	Esto hace que se cargue antes que los agrupados y de error -->
+	<script type="text/javascript" src="/jsBusquedaOfertas.xhtml"></script>
+<!-- 	END	FIXME -->
+
+	<div class="slotbanner">
+		<div>
+		<div class="slotbanner-top">
+			
+				<div id="_stag_Top1"></div>
+				
+				 
+				
+			
+		</div>
+		<script type="text/javascript">
+		
+		    $(".slotbanner-aside:contains('Publicidad Vacia'):last").each(function (){
+		    	$(".slotbanner-top").remove();
+		    	
+		    });
+
+		
+		</script>
+  	</div>
+		<div class="container container-slotbanner">
+			
+
+		<!-- Optimizely -->
+		<script id="optimizely" src="//cdn.optimizely.com/js/3263890513.js"></script>
+		
+  		<script type="text/javascript">
+			/* <![CDATA[ */
+			var cHeaderResponsive_suplantor = false;
+			/* ]]> */				             
+		</script>
+		
+	    
+	    
+		
+	
+	    			
+		
+			<div id="ij-policy-disclaimer" class="container-expanded">
+			    <div class="notification notification-info notification-dismissable">			    	
+					<button id="btnClose" class="btn-close" type="button">×</button>
+					<p class="contrast">
+						Este sitio web utiliza cookies propias y de terceros para asegurarte una mejor experiencia, así como mostrarte publicidad relacionada con tus preferencias. Al usar nuestro servicio, aceptas el uso de las mismas.  
+						<a class="contrast link-underline" onclick="NuevaVentana=openWindowLink(this); return false;" href="/lex.xhtml?dgv=5648099159278138592#cookies-policy" title="Política de cookies">Pulsa para ver más información sobre las cookies</a>
+					</p>
+				</div>
+			</div>	
+		
+	    
+	    <div id="adviceIE7"></div>
+	    
+	    <div class="container container-expanded">  		
+
+	  		<header class="global-nav">
+	  			<a id="home-nologged-menu" onclick="xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo() ,&#39;hnl_header_menu&#39;,&#39;A&#39;); return true;" href="javascript:;" class="js-open-menu nav-bar-toggle iconfont-BurguerMenu">
+			                		<span>Menú</span>
+			    </a>
+			    <nav id="nav-mobile" class="nav-mobile">
+			    	<ul class="nav-bar-menu clearfix">
+			        	<li>
+			        		
+			        			<a id="hdrLinkToHome" class="active logo" href="/" onclick="xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo() ,&#39;hnl_header_title&#39;,&#39;N&#39;); return true;">
+											<img id="logo-header" alt="" src="//media.infojobs.net/portales/ij/appgrade/backgrounds/bg-logo.png" data-vars="{&quot;xitiPortalLevelOne&quot;:1}" />
+											<span>Inicio</span>
+								</a>
+			        		
+			            </li>
+			            
+			            <li>
+							<a href="/ofertas-trabajo" id="menu_tab_1" onclick="return xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo(),&#39;hnl_header_search_job&#39;,&#39;N&#39;);" title="Busca trabajo">Empleo</a>										            
+			            </li><li>
+							<a href="https://freelance.infojobs.net" id="menu_tab_2" onclick="return xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo(),&#39;hnl_header_freelance&#39;,&#39;N&#39;);" title="Contrata freelance para tus proyectos">Freelance</a>										            
+			            </li><li>
+							<a href="/empleo-directivos-managers" id="menu_tab_8" onclick="return xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo(),&#39;hnl_header_executive&#39;,&#39;N&#39;);" title="Oportunidades de empleo para directivos y managers">Executive</a>										            
+			            </li><li>
+							<a href="//orientacion-laboral.infojobs.net" id="menu_tab_9" onclick="return xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo(),&#39;hnl_header_consejos&#39;,&#39;N&#39;);" title="Orientación laboral y coaching en la búsqueda de empleo">Consejos</a>										            
+			            </li><li>
+							<a href="/home_employer.xhtml?dgv=238592379762863625" id="menu_tab_30" onclick="return xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo(),&#39;hnl_header_Zona_empresas&#39;,&#39;N&#39;);" title="Publica una oferta de empleo y encuentra tu candidato">Zona empresas</a>										            
+			            </li>
+			            
+			        </ul>
+			        
+			        <ul class="nav-bar-access">
+						<li>
+							<a id="candidate_login" href="javascript:void(0);" class="btn btn-default" title="Accede a tu área de candidato">
+								Accede <span id="userReconizedName"></span>
+							</a>
+						</li>
+						<li> 
+							<a id="sign_in_prueba_gratis" href="/candidate/create-profile/create.xhtml" onclick="xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalTypeLevelTwo(),&#39;header_registration&#39;,&#39;N&#39;); return true;" class="btn btn-primary" title="Tu CV en InfoJobs">Date de alta</a>
+						</li>
+						
+			            
+					</ul>
+					
+					
+				</nav>
+			</header>
+		</div>
+		<div>
+
+		
+		
+		<script type="text/javascript">
+			/* <![CDATA[ */
+			             
+			if (typeof infojobs === "undefined"){
+				var infojobs = {};
+			}
+			if (typeof infojobs.cFormLoginThickbox === "undefined"){
+				infojobs.cFormLoginThickbox = {};
+			}			
+			infojobs.cFormLoginThickbox.loginType = 'candidato';
+			infojobs.cFormLoginThickbox.loginRunTB = '/candidate-login-thickbox.xhtml?dgv=704929692368149858&tipoUsuario=candidato';
+			/* ]]> */
+		</script>
+
+		<form name="formPersonalizedLogin" id="formPersonalizedLogin" method="post">
+			<input type="hidden" name="email" id="email" />
+			<input type="hidden" name="password" id="e-password" />
+			<input type="hidden" name="permanentLogin" id="e-permanentLogin" value="0" />
+			<input type="hidden" name="fenl" id="fenl" />
+			<input type="hidden" name="j_clientId" value="empleo_ij" />
+			<input type="hidden" name="tipoLogin" value="candidato" />
+			<input type="hidden" name="accio" value="" />
+			<input type="hidden" name="ret" value="" />
+		</form>
+</div>
+		<!-- /* Aviso IE7 */ -->
+		<script type="text/javascript">			
+			iEAdvice("adviceIE7", 'Actualiza tu navegador para poder usar InfoJobs','Utilizamos las \u00FAltimas tecnolog\u00EDas para ser m\u00E1s r\u00E1pidos y seguros. Tu navegador est\u00E1 desactualizado y no permite el correcto funcionamiento de InfoJobs. ', 'Consulta esta p\u00E1gina para actualizar tu navegador');
+		</script>
+	
+
+			
+		<div class="notification-toast js-toast hide" id="notification-toast" data-source=".global-nav" data-classes="notification-toast-fixed" data-vars="{&quot;notSticky&quot;:false}">
+			<div id="toast-content" class="notification notification-dismissable notification-error">
+				<button class="btn-close" type="button">×</button>
+				<p>
+					<span id="message-toast"></span>
+					
+				</p>
+			</div>
+		</div>
+		<input type="hidden" id="hasShownToast" value="" /> 	
+	
+			
+
+			
+
+			<div itemscope="itemscope" itemtype="http://schema.org/JobPosting">
+				
+		
+		<form id="form_link" method="post" action="/ver-oferta.xhtml">
+			<input type="hidden" name="of_relaunch" id="item_form_relaunch" value="{&quot;pagesize&quot;:&quot;20&quot;,&quot;canalid&quot;:&quot;0&quot;,&quot;vieneUrlExecutive&quot;:&quot;false&quot;,&quot;detalleestudiosid&quot;:&quot;0&quot;,&quot;queryid&quot;:&quot;-2147483648&quot;,&quot;experienciaid&quot;:&quot;&quot;,&quot;tipodestacadas&quot;:&quot;2&quot;,&quot;geosearch&quot;:&quot;[]&quot;,&quot;subSegmento&quot;:&quot;-2147483648&quot;,&quot;antiguedadid&quot;:&quot;0&quot;,&quot;categoriasid&quot;:&quot;0&quot;,&quot;jornadalaboralid&quot;:&quot;&quot;,&quot;paisesid&quot;:&quot;0&quot;,&quot;formatosalarioid&quot;:&quot;0&quot;,&quot;order&quot;:&quot;22&quot;,&quot;upsellingId&quot;:&quot;-2147483648&quot;,&quot;page&quot;:&quot;1&quot;,&quot;palabra&quot;:&quot;&quot;,&quot;etts&quot;:&quot;true&quot;,&quot;upselling&quot;:&quot;false&quot;,&quot;idBusquedaPropia&quot;:&quot;-2147483648&quot;,&quot;origenbusqueda&quot;:&quot;10&quot;,&quot;salariominimo&quot;:&quot;0&quot;,&quot;nivelestudiosid&quot;:&quot;&quot;,&quot;poblaciones&quot;:&quot;&quot;,&quot;salariomaximo&quot;:&quot;0&quot;,&quot;provinciasid&quot;:&quot;0&quot;,&quot;subcategoriasid&quot;:&quot;0&quot;,&quot;seleccion&quot;:&quot;true&quot;,&quot;origenaccion&quot;:&quot;0&quot;,&quot;tipocontratoid&quot;:&quot;&quot;,&quot;experienciasslider&quot;:&quot;&quot;}" />
+			<input type="hidden" name="of_codigos" id="item_form_codigos" value="[]" />
+			<input type="hidden" id="item_form_codigo" name="of_codigo" value="" />
+			<input type="hidden" name="of_resultados" id="item_form_resultados" value="0" />
+			<input type="hidden" name="of_resultados_destacadas" id="item_form_resultados_destacadas" value="0" />
+			<input type="hidden" name="of_resultados_no_destacadas" id="item_form_resultados_no_destacadas" value="0" />
+			<input type="hidden" name="of_itemspagina" id="item_form_itemspagina" value="0" />
+			<input type="hidden" name="palabra" id="item_form_palabra" />
+			<input type="hidden" name="of_area" id="item_form_of_area" value="0" />
+			<input type="hidden" name="subcategoria" id="item_form_subcategoria" value="0" />
+			<input type="hidden" name="of_provincia" id="item_form_of_provincia" value="0" />
+			<input type="hidden" name="nivel_estudios" id="item_form_nivel_estudios" />
+			<input type="hidden" name="experiencias" id="item_form_experiencia" />			
+			<input type="hidden" name="of_pos" id="item_of_pos" value="0" />
+			<input type="hidden" name="subSegmento" id="item_form_subSegmento" value="-2147483648" />
+			<input type="hidden" name="dgv" id="dgv" value="1462919796629" />
+			<input type="hidden" name="vieneUrlExecutive" id="item_vieneUrlExecutive" value="false" />
+		</form>
+		
+		
+		
+		<form id="form_relaunch" method="post" data-vars="{&quot;searchNavigators&quot;:[1,2,5,9,6,7,10,13,3,14,15,16],&quot;laoBusquedaPropia_ACCION_SAVE&quot;:&quot;SAV&quot;,&quot;laoCriteriosBusquedaOfertaForm_COOKIE_ORIGEN_INICIO&quot;:&quot;IJ.BusquedaOfertas.OrigenInicio&quot;,&quot;laoCriteriosBusquedaOfertaForm_COOKIE_ID_PREVIO_BUSQUEDA&quot;:&quot;IJ.BusquedaOfertas.IdBusqueda&quot;,&quot;laoCriteriosBusquedaOfertaForm_OA_CAMBIO_ORDEN&quot;:5,&quot;laoCriteriosBusquedaOfertaForm_OA_NAVEGADOR_PAIS&quot;:3010,&quot;laoCriteriosBusquedaOfertaForm_OA_NAVEGADOR_PROVINCIA&quot;:3002,&quot;laoCriteriosBusquedaOfertaForm_OA_NAVEGADOR_CATEGORIA&quot;:3003,&quot;laoCriteriosBusquedaOfertaForm_OA_NAVEGADOR_SUBCATEGORIA&quot;:3004,&quot;laoCriteriosBusquedaOfertaForm_OA_NAVEGADOR_SALARIO&quot;:3008,&quot;laoCriteriosBusquedaOfertaForm_OA_NAVEGADOR_SALARIO_SLIDER&quot;:3017,&quot;laoCriteriosBusquedaOfertaForm_OA_NAVEGADOR_POBLACION&quot;:3001,&quot;laoCriteriosBusquedaOfertaForm_OA_NAVEGADOR_ESTUDIOS&quot;:3005,&quot;laoCriteriosBusquedaOfertaForm_OA_NAVEGADOR_EXPERIENCIA&quot;:3009,&quot;laoCriteriosBusquedaOfertaForm_OA_NAVEGADOR_EXPERIENCIA_SLIDER&quot;:3016,&quot;laoCriteriosBusquedaOfertaForm_OA_NAVEGADOR_JORNADA_LABORAL&quot;:3007,&quot;laoCriteriosBusquedaOfertaForm_OA_NAVEGADOR_TIPO_CONTRATO&quot;:3006,&quot;laoCriteriosBusquedaOfertaForm_OA_NAVEGADOR_UPSELLING&quot;:3011,&quot;laoCriteriosBusquedaOfertaForm_OA_NAVEGADOR_FECHA&quot;:3012,&quot;laoCriteriosBusquedaOfertaForm_OA_NAVEGADOR_SUBSEGMENTO&quot;:3013,&quot;laoCriteriosBusquedaOfertaForm_OA_NAVEGADOR_PALABRA&quot;:3014,&quot;laoCriteriosBusquedaOfertaForm_OA_BUSQUEDA_OFERTAS_NAV&quot;:10,&quot;laoCriteriosBusquedaOfertaForm_NAVIGATOR_PAIS&quot;:10,&quot;laoCriteriosBusquedaOfertaForm_NAVIGATOR_PROVINCIA&quot;:2,&quot;laoCriteriosBusquedaOfertaForm_NAVIGATOR_POBLACION&quot;:1,&quot;laoCriteriosBusquedaOfertaForm_NAVIGATOR_CATEGORIA&quot;:3,&quot;laoCriteriosBusquedaOfertaForm_NAVIGATOR_SUBCATEGORIA&quot;:4,&quot;laoCriteriosBusquedaOfertaForm_NAVIGATOR_SALARIO&quot;:8,&quot;laoCriteriosBusquedaOfertaForm_NAVIGATOR_SALARIO_SLIDER&quot;:16,&quot;laoCriteriosBusquedaOfertaForm_NAVIGATOR_ESTUDIOS&quot;:5,&quot;laoCriteriosBusquedaOfertaForm_NAVIGATOR_EXPERIENCIA&quot;:9,&quot;laoCriteriosBusquedaOfertaForm_NAVIGATOR_EXPERIENCIA_SLIDER&quot;:15,&quot;laoCriteriosBusquedaOfertaForm_NAVIGATOR_JORNADA_LABORAL&quot;:7,&quot;laoCriteriosBusquedaOfertaForm_NAVIGATOR_TIPO_CONTRATO&quot;:6,&quot;laoCriteriosBusquedaOfertaForm_NAVIGATOR_FECHA&quot;:12,&quot;laoCriteriosBusquedaOfertaForm_NAVIGATOR_UPSELLING&quot;:11,&quot;laoCriteriosBusquedaOfertaForm_NAVIGATOR_SUBSEGMENTO&quot;:13,&quot;laoCriteriosBusquedaOfertaForm_NAVIGATOR_PALABRA&quot;:14,&quot;laoCriteriosBusquedaOfertaForm_DEFAULT_PAIS&quot;:0,&quot;laoCriteriosBusquedaOfertaForm_DEFAULT_PROVINCIA&quot;:0,&quot;laoCriteriosBusquedaOfertaForm_DEFAULT_POBLACION&quot;:&quot;&quot;,&quot;laoCriteriosBusquedaOfertaForm_DEFAULT_GEO_POBLACION&quot;:0,&quot;laoCriteriosBusquedaOfertaForm_DEFAULT_CATEGORIA&quot;:0,&quot;laoCriteriosBusquedaOfertaForm_DEFAULT_SUBCATEGORIA&quot;:0,&quot;laoCriteriosBusquedaOfertaForm_DEFAULT_EXPERIENCIA&quot;:0,&quot;laoCriteriosBusquedaOfertaForm_DEFAULT_JORNADA_LABORAL&quot;:0,&quot;laoCriteriosBusquedaOfertaForm_DEFAULT_RADIO&quot;:0.0,&quot;laoCriteriosBusquedaOfertaForm_DEFAULT_SALARIO&quot;:0,&quot;laoCriteriosBusquedaOfertaForm_DEFAULT_ELEMENTS_BY_NAVIGATOR&quot;:4,&quot;laoCriteriosBusquedaOfertaForm_DEFAULT_NIVEL_ESTUDIOS&quot;:0,&quot;laoCriteriosBusquedaOfertaForm_DEFAULT_TIPO_CONTRATO&quot;:0,&quot;laoCriteriosBusquedaOfertaForm_DEFAULT_SUB_SEGMENTO&quot;:-2147483648,&quot;origenBusqueda&quot;:10,&quot;queryId&quot;:-2147483648}" action="/jobsearch/search-results/list.xhtml">
+			<input type="hidden" name="inicio" id="item_inicio" value="1" />
+			<input type="hidden" name="showFilters" id="item_showFilters" value="false" />
+			<input type="hidden" name="showExtraFilters" id="item_showExtraFilters" value="false" />
+			<input type="hidden" name="resultados" id="item_resultados" value="20" />
+			<input type="hidden" name="palabra" id="item_palabra" />
+			<input type="hidden" name="of_area" id="item_of_area" value="0" />
+			<input type="hidden" name="of_pais" id="item_of_pais" value="0" />
+			<input type="hidden" name="of_provincia" id="item_of_provincia" value="0" />
+			<input type="hidden" name="tipo_contrato" id="item_tipo_contrato" />
+			<input type="hidden" name="remuneracion_minima" id="item_remuneracion_minima" value="0" />
+			<input type="hidden" name="remuneracion_maxima" id="item_remuneracion_maxima" value="0" />
+			<input type="hidden" name="remuneracion_formato" id="item_remuneracion_formato" value="0" />
+			<input type="hidden" name="antiguedad" id="item_antiguedad" value="0" />
+			<input type="hidden" name="experiencias" id="item_experiencia" />
+			<input type="hidden" name="ett" id="item_ett" value="true" />
+			<input type="hidden" name="seleccion" id="item_seleccion" value="true" />
+			<input type="hidden" name="orden" id="item_orden" value="22" />
+			<input type="hidden" name="defaultOrder" id="item_default_order" value="true" />
+			<input type="hidden" name="nivel_estudios" id="item_nivel_estudios" />
+			<input type="hidden" name="jornada_laboral" id="item_jornada_laboral" />
+			<input type="hidden" name="subcategoria" id="item_subcategoria" value="0" />
+			<input type="hidden" name="origen_busqueda" id="item_origen_busqueda" value="10" />			
+			<input type="hidden" name="origen_accion" id="item_origen_accion" value="0" />			
+			<input type="hidden" name="canal" id="item_canal" value="0" />		
+			<input type="hidden" name="query_id" id="item_query" value="-2147483648" />		
+			<input type="hidden" name="poblacionIdGEO" id="item_poblacionIdGEO" />		
+			<input type="hidden" name="poblacionGEO" id="item_poblacionGEO" />		
+			<input type="hidden" name="radioGEO" id="item_radioGEO" />
+			<input type="hidden" name="upsellings" id="item_upsellings" value="false" />	
+			<input type="hidden" id="item_nombre" name="nombreBusqueda" value="" />
+			<input type="hidden" id="item_periodicidad" name="periodicidad" value="1" />		
+			<input type="hidden" id="item_accion" name="accion" value="" />		
+			<input type="hidden" name="subSegmento" id="item_subSegmento" value="-2147483648" />
+			<input type="hidden" name="puestoNormalizado" id="item_puestoNormalizado" value="-2147483648" />
+			<input type="hidden" name="experiencias_slider" id="item_experiencias_slider" />
+			<input type="hidden" name="vieneUrlExecutive" id="item_vieneUrlExecutive" value="false" />
+			<input type="hidden" name="idPush" id="item_id_push" />	
+		</form>
+	
+				<div class="panel-canvas">
+					<div class="panel-small-device-header clearfix no-print">
+				    	
+				    	<div class="hide-medium-device hide-large-device flex-grow-1 text-right">
+							<a id="candidate_application_mobile" class="btn btn-primary" href="/candidate/application/index.xhtml?id_oferta=ad21b1235e441aaa961046b96d5e29&amp;dgv=3756724934770185691">Inscribirme</a>
+						</div>
+		    		</div>
+
+					
+					
+					<div class="inner">
+				   		<div class="heading-addons">
+				    		
+				      			
+					      			
+				      				<h1 itemprop="title" id="prefijoPuesto" class="text-hyphen">Oficial peluquería</h1>
+				      			
+				      			
+				      		
+				     	</div>
+			     	</div>
+			     	<div class="panel-default">
+                    <div class="row">
+							<div class="col-8 col-6-medium">
+                                <div class="col-child inner">
+                                    <div class="row row-matrioska">
+				      					<div class="col-6 col-12-medium ">
+                                            <div class="col-child inner">
+                                                <ul class="list-default list-bullet-default small">
+												<li itemprop="hiringOrganization" itemscope="itemscope" itemtype="http://schema.org/Organization">
+													
+													<a class="link bold" itemprop="name" onclick="javascript:xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo(),&#39;empresa-nombre&#39;,&#39;N&#39;); return true;" title="Ofertas de trabajo en Como me Cortas S.L." href="/como-me-cortas-s.l./em-i98565457555750671111095016105953407009">Como me Cortas S.L.</a>
+												</li>
+												<li itemprop="jobLocation" itemscope="itemscope" itemtype="http://schema.org/Place">
+													<span itemprop="addressLocality" id="prefijoPoblacion">San Agustin Del Guadalix (Madrid), </span>
+													<a href="/ofertas-trabajo/madrid" class="link" id="prefijoProvincia" title="Más ofertas en Madrid">Madrid</a>
+													<span itemprop="addressRegion" id="prefijoPais"> (España)</span>
+												</li>
+												<li>
+													<span>Publicada </span>
+													<span itemprop="datePosted" class="marked">hace 47m</span>
+													
+												</li>
+											</ul>
+										</div>
+                                        </div>
+
+				      					<div class="col-6 col-12-medium ">
+                                            <div class="col-child inner">
+                                                <ul class="list-default list-bullet-default small">
+												
+												<li>
+													<span itemprop="baseSalary">Salario: 900 - 1.200 bruto/mes</span>
+												</li>
+												<li>
+													<span itemprop="experienceRequirements">Experiencia mínima: al menos 2 años</span>
+												</li>
+												<li>
+													<span id="prefijoJornada">Tipo de oferta: indefinido, jornada completa</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+                    </div>
+
+					<div class="col-4 col-6-medium">
+					      <div class="col-child clearfix">
+								<div class="hide-small-device inner">
+								<a id="candidate_application" href="/candidate/application/index.xhtml?id_oferta=ad21b1235e441aaa961046b96d5e29&amp;dgv=3756724934770185691" class="btn btn-primary btn-medium pull-right" data-vars="{&quot;hasUrlFormularioExterno&quot;:false}">Inscribirme a esta oferta</a>
+								</div>
+								<span class="panel-small-device-footer no-print">
+		                            <a class="link small" href="#" id="save_alert_push" onclick="executeLoginWithOffer(1,&#39;save_busquedaFromOferta_tb&#39;, &#39;ad21b1235e441aaa961046b96d5e29&#39;,&#39;-2147483648&#39;, &#39;1&#39;); return false;" data-vars="{&quot;forTrace&quot;:&quot;&quot;,&quot;idBusquedaAguardar&quot;:-2147483648,&quot;codiOferta&quot;:&quot;ad21b1235e441aaa961046b96d5e29&quot;}">Recibe ofertas como esta por e-mail</a>
+		                        </span>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="container-expanded panel-default">
+					<div class="row row-faux row-panel row-faux-card">
+							<div class="col-8 col-12-medium">
+								<div class="col-child panel-canvas">
+									<div class="inner-expanded">
+										<div class="inner panel-canvas" itemprop="description">
+											<h2>Descripción</h2>
+											<div id="prefijoDescripcion1"><p>
+Buscamos profesionales de la peluquería de señora y caballero con conocimientos en todo tipo de técnicas de color y corte. Somos un salón de la zona norte que dispone de más de 200 metros dedicados a la belleza. Trabajamos con algunas de las mejores firmas del sector (Moroccanoil. Germain de Capuccini).</p>
+</div>
+											<ul class="list-default">
+												
+												<li>
+													<h3 class="list-default-title">Tipo de industria de la oferta</h3>
+													<span class="list-default-text">Cosmética</span>
+												</li>
+												<li>
+													<h3 class="list-default-title">Categoría</h3>
+													<span class="list-default-text">
+														<a href="/ofertas-trabajo/otros" id="prefijoCat" class="link" title="Más ofertas en Otros">Otros</a> -
+														<a href="/ofertas-trabajo/otros/-" id="prefijoSubCat" class="link" title="Más ofertas en Sin especificar">Sin especificar</a>
+													</span>
+												</li>
+												
+												<li>
+													<h3 class="list-default-title">Nivel</h3>
+													<span class="list-default-text" id="prefijoNivelLaboral">Especialista</span>
+												</li>
+												
+												<li>
+													<h3 class="list-default-title">Número de vacantes</h3>
+													<span class="list-default-text" id="prefijoVacantes">2</span>
+												</li>
+												
+												<li>
+													<h3 class="list-default-title">Horario</h3>
+													<span class="list-default-text">M-V 10 a 19 S 9 a 14</span>
+												</li>
+												<li itemprop="baseSalary">
+													<h3 class="list-default-title">Salario</h3>
+													<span class="list-default-text">900 - 1.200 Bruto/mes</span>
+												</li>
+												
+											</ul>
+									 	</div>
+
+									 	<div class="inner">
+									    	<h2>Requisitos</h2>
+
+									    	 <ul class="list-default" itemprop="educationRequirements">
+												<li>
+													<h3 class="list-default-title">Estudios mínimos</h3>
+													<span class="list-default-text" id="prefijoEstMin">Otros títulos, certificaciones y carnés</span>
+
+												</li>
+												<li itemprop="experienceRequirements">
+													<h3 class="list-default-title">Experiencia mínima</h3>
+													<span class="list-default-text">Al menos 2 años</span>
+												</li>
+												
+												<li itemprop="skills">
+													<h3 class="list-default-title">Conocimientos necesarios</h3>
+													<ul class="tag-group tag-group-sticker">
+														<li>
+														  <a class="sticker sticker-skill skill-small" title="Más ofertas de Técnicas corte caballero" href="/ofertas-trabajo/tecnicas-corte-caballero">Técnicas corte caballero</a>
+														</li><li>
+														  <a class="sticker sticker-skill skill-small" title="Más ofertas de Técnicas color" href="/ofertas-trabajo/tecnicas-color">Técnicas color</a>
+														</li>
+													</ul>
+												</li>
+												
+												
+
+											</ul>
+										</div>
+		        						
+
+										<div class="inner">
+											<p class="small"><strong id="candidate_application_message">1 inscrito a esta oferta para 2 vacantes </strong></p>
+											<p id="candidate_application_message_advice" class="small">Nuestro consejo: inscríbete si tienes el perfil, puede que se ajuste más que el de otros inscritos.</p>
+											
+											
+											<div class="btn-expanded-small-text">
+												<a id="candidate_application_bottom" class="data-text btn btn-primary btn-medium" href="/candidate/application/index.xhtml?id_oferta=ad21b1235e441aaa961046b96d5e29&amp;dgv=3756724934770185691" target="_self" data-text="Inscribirme a esta oferta">
+													<span>Inscribirme</span>
+												</a>
+											</div>
+											
+											
+										</div>
+
+										
+			
+		
+									</div>
+								</div>
+							</div>
+
+							<div class="col-4 col-12-medium no-print">
+								<div class="col-child inner inner-expanded panel-default">
+
+ 									<!-- Social Contacts Component -->
+									
+
+
+ 									<!--	Shared Offer Component	 -->
+									<div class="text-center">
+										<h3>Comparte esta oferta</h3>
+															
+		<div class="btn-group btn-group-justified">
+			
+	    <div>
+	        <a href="javascript:void(0);" id="facebook" class="btn btn-default iconfont-Facebook" onclick="xitiSocialIcon(&quot;http://www.facebook.com/sharer.php?u=http://www.infojobs.net/san-agustin-del-guadalix/oficial-peluqueria/of-iad21b1235e441aaa961046b96d5e29%2Fnv-oAd-caFb%3FnavOrigen%3Drs_so_Fb%26applicationOrigin%3De_share_offer&quot;, &quot;ver-oferta-facebook&quot;)" title="Comparte esta oferta en Facebook"></a>
+	    </div>
+	
+			
+	    <div>
+	        <a href="javascript:void(0);" id="twitter" class="btn btn-default iconfont-Twitter" onclick="xitiSocialIcon(&quot;http://twitter.com/home?status=En+InfoJobs+he+encontrado+esta+oferta+de+Oficial+peluquer%C3%ADa+en+Madrid%3A+http%3A%2F%2Fwww.infojobs.net%2Fsan-agustin-del-guadalix%2Foficial-peluqueria%2Fof-iad21b1235e441aaa961046b96d5e29%2Fnv-oAd-caTw%3FnavOrigen%3Drs_so_Tw%26applicationOrigin%3De_share_offer+%23empleo&quot;, &quot;ver-oferta-twitter&quot;)" title="Tweetea esta oferta"></a>
+	    </div>
+	
+			
+	    <div>
+	        <a href="javascript:void(0);" id="google" class="btn btn-default iconfont-GooglePlus" onclick="xitiSocialIcon(&quot;https://plus.google.com/share?url=?u=http://www.infojobs.net/san-agustin-del-guadalix/oficial-peluqueria/of-iad21b1235e441aaa961046b96d5e29%2Fnv-oAd-caGo%3FnavOrigen%3Drs_so_Go%26applicationOrigin%3De_share_offer&quot;, &quot;ver-oferta-google&quot;)" title="Comparte esta oferta en Google+"></a>
+	    </div>
+	
+			
+	    <div>
+	        <a href="javascript:void(0);" id="linkedin" class="btn btn-default iconfont-LinkedIn" onclick="xitiSocialIcon(&quot;http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.infojobs.net%2Fsan-agustin-del-guadalix%2Foficial-peluqueria%2Fof-iad21b1235e441aaa961046b96d5e29%2Fnv-oAd-caLk%3FnavOrigen%3Drs_so_Lk%26applicationOrigin%3De_share_offer&amp;title=Oficial+peluquer%C3%ADa+-+Como+me+Cortas+S.L.&amp;summary=Buscamos+profesionales+de+la+peluquer%C3%ADa+de+se%C3%B1ora+y+caballero+con+conocimientos+en+todo+tipo+de+t%C3%A9cnicas+de+color+y+corte.+Somos+un+sal%C3%B3n+de+la+zona+norte+que+dispone+de+m%C3%A1s+de+200+metros+dedicados...&quot;, &quot;ver-oferta-linkedin&quot;)" title="Comparte esta oferta en Linkedin"></a>
+	    </div>
+	
+				    
+		<div id="sendMailModal" class="modal" data-callback="resetForm()" data-openelement="send_email" data-contentwrapper="contentWrapper">
+			<a href="javascript:void(0);" class="btn btn-default iconfont-Mail js-modal-open" id="send_email" title="Envía a un amigo"></a>			
+		</div>
+		<script>
+			var destinationMailIncorrect = 'El formato del e-mail no es correcto.';
+			var nameLengthIncorrect = 'Debes indicar al menos 3 caracteres.';
+			var originMailIncorrect = 'El formato del e-mail no es correcto.';
+			var isLogued = false;
+			var maxChars = 250;
+			var emailOk = 'Has enviado la oferta de empleo a {0}.';
+			var modalOptions = {headermodal: "Compartir oferta por e-mail ", close: 'Cerrar'};
+			var xitiParam = 'ver-oferta-send_email';
+			var subject = '{0} te envía una oferta de empleo';
+			var communicationError = 'Se ha producido un error realizando la petición, pruebe mas tarde por favor.';		
+		</script>
+		
+		<div id="contentWrapper" style="display:none">
+			<div class="inner">
+				<form action="/shared/share-by-mail.xhtml" id="sendMailForm" name="sendMailForm" method="post">
+					<fieldset>
+						<legend>Enviar a un amigo</legend>
+                        <fieldset>
+                            <legend>Datos de contacto</legend>
+                            <ul class="form--field-block clearfix">
+                                <li id="li_correo">
+                                    <input type="hidden" name="urlToShare" value="http%3A%2F%2Fwww.infojobs.net%2Fsan-agustin-del-guadalix%2Foficial-peluqueria%2Fof-iad21b1235e441aaa961046b96d5e29%2Fnv-oAd-caSm%3FnavOrigen%3De_so_Sm%26applicationOrigin%3De_share_offer" />
+                                    <input type="hidden" name="xitiMail" value="Enviar_amigo_link_oferta" />
+                                    <input type="hidden" name="xitiLink" value="sharever-oferta" />
+                                    <input type="hidden" name="subject" id="subject" />
+                                    <input type="hidden" name="contentTitle" value="Oficial peluquería" />
+                                    <label for="receiverEmail">E-mail del destinatario</label>
+                                    <input type="text" id="receiverEmail" name="receiverEmail" class="val_email" maxlength="200" />
+                                </li>
+    
+                                <li id="li_tu_correo">
+                                    <label for="senderEmail">Tu e-mail</label>
+                                    <input type="text" id="senderEmail" name="senderEmail" class="val_email" maxlength="200" />
+                                </li>
+                                
+                                <li id="li_nombre">
+                                    
+                                    <label for="senderName">Tu nombre</label>
+                                    <input type="text" id="senderName" name="senderName" class="val_field200" maxlength="250" />
+                                </li>
+                                <li id="li_comentarios">
+                                    <label for="comment">Tu mensaje </label>
+                                    <div class="textarea">
+                                        <textarea id="comment" name="comment" onkeypress="updateCount(event,this,&#39;contador_comment&#39;,maxChars)" onkeyup="updateCount(event,this,&#39;contador_comment&#39;,maxChars)" onchange="updateCount(event,this,&#39;contador_comment&#39;,maxChars)" class="val_textarea1000" value="Hola,&lt;br/&gt;Me gustaría compartir contigo esta oferta de trabajo de tu interés que he encontrado en InfoJobs.&lt;br/&gt;Saludos,?noEscape">Hola,
+Me gustaría compartir contigo esta oferta de trabajo de tu interés que he encontrado en InfoJobs.
+Saludos,</textarea>
+                                        <p class="info alternative small"><span id="contador_comment">120</span>/<span>250</span></p>
+                                    </div>
+                                </li>
+                            </ul>                            
+                            <div>
+		<h2 class="h3 heading-divider margin-top">Código de seguridad</h2>
+		<ul id="ulCaptcha" class="form--field-block clearfix margin-bottom" data-vars="{&quot;captchaOk&quot;:&quot;OK&quot;,&quot;captchaEnabled&quot;:&quot;true&quot;,&quot;captchaError&quot;:&quot;El texto ha de corresponder con la imagen&quot;}">
+			<li class="imgcaptcha">
+				<img id="imgCaptcha" />
+				<p>
+					¿No puedes leerlo? 
+					<a id="refreshCaptchaLink" tabindex="500" href="javascript:void(0);" class="link" onclick="javascript:net.infojobs.components.capcha.refrescarCaptcha(&#39;/scaptcha.ij&#39;,&#39;imgCaptcha&#39;);">Mostrar otro</a>
+				</p>
+			</li>
+			<li id="li_sCaptcha">
+				<label for="sCaptcha">Introduce el texto de la imagen</label>
+				<input id="sCaptcha" type="text" onblur="javascript:net.infojobs.components.capcha.validateCaptchaFilled();" class="js-required js-error" data-vars="{&quot;successStyle&quot;:true}" name="captcha" />
+			</li>
+		</ul>
+	</div>
+                        </fieldset>
+                                          
+						<button id="button" class="btn btn-primary" type="submit" onclick="validarMailModal();return false;">Enviar</button>
+					</fieldset>
+				</form>
+			</div>			
+		</div>	
+			
+		 
+		<script type="text/javascript">
+			$(document).ready(function(){		
+				$("#sendMailModal").modalWindow(modalOptions);
+			});
+		</script>
+	
+		</div>
+	
+										<div class="margin-bottom margin-top hide-small-device hide-medium-device">	
+											<a href="javascript:xt_click(this,&#39;C&#39;,&#39;1&#39;,&#39;view-offer::print&#39;,&#39;A&#39;); print()" class="link">Imprime esta oferta</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+			</div>
+			
+
+		<!-- Encuesta -->
+		
+	  	
+	
+
+		<!-- Extras -->
+		
+		
+		
+
+
+
+
+   
+
+   
+   
+
+
+
+
+	<div id="pfw-top-search-footer-responsive"  class="top-searches container-expanded hide-medium-device hide-small-device no-print">
+    <section class="inner panel-default">
+	    <ul class="row clearfix">
+		    <li class="col-3">
+			    <div class="col-child col-child-content">
+					<h3>Top Categorías</h3>				
+					<ul class="list-default list-divider small">
+				 		<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterCat1','N');" title="Top Categorías: ofertas de empleo de informática y telecomunicaciones" href="/ofertas-trabajo/informatica-telecomunicaciones" id="linkFooterCat1">Informática y Telecomunicaciones</a></li>
+				 		<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterCat2','N');" title="Top Categorías: ofertas de empleo de ingenieros y técnicos" href="/ofertas-trabajo/ingenieros-tecnicos" id="linkFooterCat2">Ingenieros y Técnicos</a></li>
+				 		<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterCat3','N');" title="Top Categorías: ofertas de empleo de sanidad y salud" href="/ofertas-trabajo/sanidad-salud" id="linkFooterCat3">Sanidad y Salud</a></li>
+				 		<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterCat4','N');" title="Top Categorías: ofertas de empleo de comercial y ventas" href="/ofertas-trabajo/comercial-ventas" id="linkFooterCat4">Comercial y ventas</a></li>
+				 		<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterCat5','N');" title="Top Categorías: ofertas de empleo de marketing y comunicación" href="/ofertas-trabajo/marketing-comunicacion" id="linkFooterCat5">Marketing y Comunicación</a></li>
+				 		<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterCat6','N');" title="Top Categorías: ofertas de empleo de atención al cliente" href="/ofertas-trabajo/atencion-cliente" id="linkFooterCat6">Atención al cliente</a></li>
+				 		<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterCat7','N');" title="Top Categorías: ofertas de empleo de turismo y restauración" href="/ofertas-trabajo/turismo-restauracion" id="linkFooterCat7">Turismo y restauración</a></li>
+				 		<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterCat8','N');" title="Top Categorías: ofertas de empleo de recursos Humanos" href="/ofertas-trabajo/recursos-humanos" id="linkFooterCat8">Recursos Humanos</a></li>
+				 		<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterCat9','N');" title="Top Categorías: ofertas de empleo de primer empleo" href="/ofertas-trabajo/primer-empleo" id="linkFooterCat9">Primer Empleo</a></li>
+				 		<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterCat10','N');" title="Top Categorías: ofertas de empleo de finanzas y banca" href="/ofertas-trabajo/finanzas-banca" id="linkFooterCat10">Finanzas y banca</a></li>
+				 	</ul>
+				</div>
+		     </li>
+		     <li class="col-3">
+			    <div class="col-child col-child-content">
+					<h3>Top Provincias</h3>				
+					<ul class="list-default list-divider small">
+				 		<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterProv1','N');" title="Top Provincias: ofertas de trabajo en Madrid" href="/ofertas-trabajo/Madrid" id="linkFooterProv1">Ofertas de empleo en Madrid</a></li>
+				 		<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterProv2','N');" title="Top Provincias: ofertas de trabajo en Barcelona" href="/ofertas-trabajo/barcelona" id="linkFooterProv2">Ofertas de empleo en Barcelona</a></li>
+				 		<li><a class="link soft-script"  onclick="return xt_click(this,'C',1,'linkFooterProv3','N');" title="Top Provincias: ofertas de trabajo en Valencia" href="/ofertas-trabajo/valencia" id="linkFooterProv3">Ofertas de empleo en Valencia</a></li>
+				 		<li><a class="link soft-script"  onclick="return xt_click(this,'C',1,'linkFooterProv4','N');" title="Top Provincias: ofertas de trabajo en  Sevilla"href="/ofertas-trabajo/sevilla" id="linkFooterProv4">Ofertas de empleo en Sevilla</a></li>
+				 		<li><a class="link soft-script"  onclick="return xt_click(this,'C',1,'linkFooterProv5','N');" title="Top Provincias: ofertas de trabajo en Alicante" href="/ofertas-trabajo/alicante" id="linkFooterProv5">Ofertas de empleo en Alicante</a></li>
+				 		<li><a class="link soft-script"  onclick="return xt_click(this,'C',1,'linkFooterProv6','N');" title="Top Provincias: ofertas de trabajo en Murcia" href="/ofertas-trabajo/murcia" id="linkFooterProv6">Ofertas de empleo en Murcia</a></li>
+				 		<li><a class="link soft-script"  onclick="return xt_click(this,'C',1,'linkFooterProv7','N');" title="Top Provincias: ofertas de trabajo en Zaragoza" href="/ofertas-trabajo/zaragoza" id="linkFooterProv7">Ofertas de empleo en Zaragoza</a></li>
+				 		<li><a class="link soft-script"  onclick="return xt_click(this,'C',1,'linkFooterProv8','N');" title="Top Provincias: ofertas de trabajo en Granada" href="/ofertas-trabajo/granada" id="linkFooterProv8">Ofertas de empleo en Granada</a></li>
+				 		<li><a class="link soft-script"  onclick="return xt_click(this,'C',1,'linkFooterProv8','N');" title="Top Provincias: ofertas de trabajo en Vizcaya" href="/ofertas-trabajo/vizcaya" id="linkFooterProv8">Ofertas de empleo en Vizcaya</a></li>
+				 		<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterExtranjero','N');" 
+title="Top Provincias: ofertas en el extranjero" href="/ofertas-trabajo/extranjero" id="linkFooterExtranjero">Ofertas en el extranjero</a></li>
+					</ul>
+				</div>
+		     </li>
+		     <li class="col-3">
+			    <div class="col-child col-child-content">
+					<h3>Top Búsquedas</h3>
+					<ul class="list-default list-divider small">
+				 		<li><a class="link soft-script"  onclick="return xt_click(this,'C',1,'linkFooterTopTen1','N');" title="Top Búsquedas: empleo de enfermera" href="/ofertas-trabajo/enfermera" id="linkFooterTopTen1">
+	 						         Trabajar de enfermera</a></li>         
+	 						<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterTopTen2','N');" title="Top Búsquedas: empleo de informático" href="/ofertas-trabajo/informatico" id="linkFooterTopTen2">
+	 						         Trabajar de informático</a></li>         
+	 						<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterTopTen3','N');" title="Top Búsquedas: empleo de directivo" href="/ofertas-trabajo/directivo" id="linkFooterTopTen3">
+	 						         Trabajar de directivo</a></li>         
+	 						<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterTopTen4','N');" title="Top Búsquedas: empleo de ingeniero" href="/ofertas-trabajo/ingeniero" id="linkFooterTopTen4">
+	 						         Trabajar de ingeniero</a></li>         
+	 						<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterTopTen5','N');" title="Top Búsquedas: empleo de analista" href="/ofertas-trabajo/analista" id="linkFooterTopTen5">
+	 						         Trabajar de analista</a></li>         
+	 						<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterTopTen6','N');" title="Top Búsquedas: empleo de médico" href="/ofertas-trabajo/medico" id="linkFooterTopTen6">
+	 						         Trabajar de médico</a></li>         
+	 						<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterTopTen7','N');" title="Top Búsquedas: empleo de director comercial" href="/ofertas-trabajo/director-comercial" id="linkFooterTopTen7">
+	 						         Trabajar de director comercial</a></li>         
+	 						<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterTopTen8','N');" title="Top Búsquedas: empleo de administrativo" href="/ofertas-trabajo/administrativo" id="linkFooterTopTen8">
+	 						         Trabajar de administrativo</a></li>         
+	 						<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterTopTen9','N');" title="Top Búsquedas: empleo de comercial" href="/ofertas-trabajo/comercial" id="linkFooterTopTen9">
+	 						         Trabajar de comercial</a></li>         
+	 						<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterTopTen10','N');" title="Top Búsquedas: empleo de técnico de sistemas" href="/ofertas-trabajo/tecnico-de-sistemas" id="linkFooterTopTen10">
+	 						         Trabajar de técnico de sistemas</a></li>         
+	 				</ul>
+				</div>
+		     </li>
+		     <li class="col-3">
+			    <div class="col-child col-child-content">
+					<h3>Top Empresas</h3>				
+					<ul class="list-default list-divider small">
+				 		<li><a class="link soft-script" onclick="return xt_click(this,'C',1,'linkFooterTopEmp1','N');" title="Top Empresas: ofertas de trabajo en Ikea" href="http://ikea.ofertas-trabajo.infojobs.net/" id="linkFooterTopEmp1">
+	 						         Trabajar en Ikea</a></li>         
+	 						<li><a class="link soft-script"  onclick="return xt_click(this,'C',1,'linkFooterTopEmp2','N');" title="Top Empresas: ofertas de trabajo en Altran" href="http://altran.trabajo.infojobs.net/" id="linkFooterTopEmp2">
+	 						         Trabajar en Altran</a></li>         
+	 						<li><a class="link soft-script"  onclick="return xt_click(this,'C',1,'linkFooterTopEmp3','N');" title="Top Empresas: ofertas de trabajo en Vitaldent" href="http://vitaldent.trabajo.infojobs.net/" id="linkFooterTopEmp3">
+	 						         Trabajar en Vitaldent</a></li>         
+	 						<li><a class="link soft-script"  onclick="return xt_click(this,'C',1,'linkFooterTopEmp4','N');" title="Top Empresas: ofertas de trabajo en Pull & Bear" href="/pull-bear-espana-s.a./em-i969552424526202850463215055614" id="linkFooterTopEmp4">
+	 						         Trabajar en Pull & Bear</a></li>         
+	 						<li><a class="link soft-script"  onclick="return xt_click(this,'C',1,'linkFooterTopEmp5','N');" title="Top Empresas: ofertas de trabajo en Atrápalo" href="/atrapalo.com/em-i968549524526202350303215554967" id="linkFooterTopEmp5">
+	 						         Trabajar en Atrápalo</a></li>         
+	 						<li><a class="link soft-script"  onclick="return xt_click(this,'C',1,'linkFooterTopEmp6','N');" title="Top Empresas: ofertas de trabajo en The Phone House" href="/the-phone-house/em-i969549524526202150563215050585" id="linkFooterTopEmp6">
+	 						         Trabajar en The Phone House</a></li>         
+	 						<li><a class="link soft-script"  onclick="return xt_click(this,'C',1,'linkFooterTopEmp7','N');" title="Top Empresas: ofertas de trabajo en Letsbonus" href="/letsbonus/em-i98545349565751761011161010184684006706" id="linkFooterTopEmp7">
+	 						         Trabajar en Letsbonus</a></li>         
+	 						<li><a class="link soft-script"  onclick="return xt_click(this,'C',1,'linkFooterTopEmp8','N');" title="Top Empresas: ofertas de trabajo en Adecco" href="http://adecco.trabajo.infojobs.net/" id="linkFooterTopEmp8">
+	 						         Trabajar en Adecco</a></li>         
+	 						<li><a class="link soft-script"  onclick="return xt_click(this,'C',1,'linkFooterTopEmp9','N');" title="Top Empresas: ofertas de trabajo en Worten" href="/worten/em-i236151424531204971254125755908" id="linkFooterTopEmp9">
+	 						         Trabajar en Worten</a></li> 	 		
+ 	 						<li><a class="link soft-script"  onclick="return xt_click(this,'C',1,'linkFooterTopEmp10','N');" title="Top Empresas: ofertas de trabajo en Aldi" href="/aldi-masquefa-supermercados/em-i758753524538105191176205552304" id="linkFooterTopEmp9">
+	 						         Trabajar en Aldi</a></li> 	 					
+	 				</ul>
+				</div>
+		     </li>
+	     </ul>
+    </section>
+</div>
+
+	
+
+
+
+		<!-- Contenido -->
+
+		<footer class="footer footer-slotbanner">
+			<div class="container">
+				<!-- Help for Companies -->
+				
+
+				<div class="footer-nav inner">
+					<ul class="row clearfix">
+
+						<!-- Seccion: Nosotros -->
+						<li class="col-3 col-12-medium">
+							<div class="col-child">
+								<h3>Nosotros</h3>
+								<ul class="list-default">
+									<li class="nav-item-visible"><a href="/candidate/help/index.xhtml?dgv=6866030187273243697" id="helpLink" onclick="xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo(),&#39;hnl_footer_go_to_faqs&#39;,&#39;N&#39;);return true;" title="Ayuda">Ayuda</a></li>
+									<li><a href="http://orientacion-laboral.infojobs.net/detectar-ofertas-falsas" id="seguridadLink" onclick="xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo(),&#39;hnl_footer_go_to_seguridad&#39;,&#39;N&#39;);return true;" title="Seguridad">Seguridad</a>
+									</li>
+									<li><a href="/empresas/publicidad-home" id="publicidadLink" onclick="xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo(),&#39;hnl_footer_go_to_publicidad&#39;,&#39;N&#39;);return true;" title="Publicidad">Publicidad</a></li>
+									<li class="nav-item-visible"><a href="/lex.xhtml?dgv=1815227226737804887" id="condicionesLink" onclick="openWindowWithXiti(this,&#39;hnl_footer_go_to_condicionesLegales&#39;);return false;" title="Condiciones legales">Condiciones legales</a>
+									</li>
+									
+									<li><a href="/rules-and-services.xhtml?dgv=2844336506737322526" id="reglasLink" onclick="openWindowWithXiti(this,&#39;hnl_footer_go_to_reglasDeUso_caracteristServicio&#39;);return false;" title="Reglas de uso y características de servicio de InfoJobs">Uso del servicio</a></li>
+									<li><a href="/lex.xhtml?dgv=4571217811300216488#cookies-policy" id="cookiesLink" onclick="openWindowWithXiti(this,&#39;hnl_footer_go_to_cookiesPolicy&#39;);return false;" title="Política de cookies">Política de cookies</a></li>
+								</ul>
+							</div>
+						</li>
+
+						<!-- Seccion: Sobre InfoJobs -->
+						<li class="col-3 hide-small-device">
+							<div class="col-child">
+								<h3>Sobre InfoJobs</h3>
+								<ul class="list-default">
+									<li><a href="http://nosotros.infojobs.net" id="infojobsTodayFooter" onclick="xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo(),&#39;hnl_footer_go_to_infojobsHoy&#39;,&#39;N&#39;);return true;" title="El equipo y la filosofía de la empresa">InfoJobs hoy</a></li>
+									
+									
+									<li><a href="http://schibsted-spain.trabajo.infojobs.net" id="workWithUsFooter" onclick="xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo(),&#39;hnl_footer_go_to_trabajaConNosotros&#39;,&#39;N&#39;);return true;" title="¿Quieres formar parte de nuestro equipo?">Trabaja con nosotros</a></li>
+									<li><a href="/ofertas-empleo" id="offersFooter" onclick="xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo(),&#39;hnl_footer_go_to_ofertasEmpleo&#39;,&#39;N&#39;);return true;" title="Buscar ofertas de empleo">Ofertas de empleo</a></li>
+									
+								</ul>
+							</div>
+						</li>
+
+						<!-- Seccion: + InfoJobs -->
+						<li class="col-3 hide-small-device">
+							<div class="col-child">
+								<h3>+ InfoJobs</h3>
+								<ul class="list-default">
+									<li><a href="http://orientacion-laboral.infojobs.net" id="jobGuidanceFooter" onclick="xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo(),&#39;hnl_footer_go_to_orientacionLaboral&#39;,&#39;N&#39;);return true;" title="Orientación laboral y coaching en la búsqueda de empleo">Orientación laboral</a></li>
+									
+									
+									
+									<li><a href="http://www.emagister.com" id="formacionFooter" onclick="xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo(),&#39;hnl_footer_go_to_formacion&#39;,&#39;N&#39;);return false;" title="Encuentra un curso para ti" rel="nofollow">InfoJobs Formación</a></li>
+									
+										
+									<li><a href="http://empleo-solidario.trabajo.infojobs.net" id="solidaryJobFooter" onclick="xt_click(this,&#39;C&#39;,&#39;1&#39;,&#39;hnl_footer_go_to_empleoSolidario&#39;,&#39;N&#39;);return true;" title="Empleo Solidario">Empleo Solidario</a></li>
+									<li><a href="http://www.infojobs.it" id="italyFooter" onclick="xt_click(this,&#39;C&#39;,&#39;1&#39;,&#39;hnl_footer_go_to_infojobsItaly&#39;,&#39;N&#39;); return true;" title="Accedi a InfoJobs.it">Oferte di lavoro in Italia</a></li>
+									
+								</ul>
+							</div>
+						</li>
+
+						<!-- Seccion: Prensa -->
+						<li class="col-3 hide-small-device">
+							<div class="col-child">
+								<h3>Prensa</h3>
+								<ul class="list-default">
+									<li><a href="http://nosotros.infojobs.net/prensa/indicadores-infojobs" id="newsIndicatorsFooter" onclick="xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo(),&#39;hnl_footer_go_to_indicadoresPrensa&#39;,&#39;N&#39;);return true;" title="El barómetro en el mercado laboral">Indicadores de InfoJobs</a></li>
+									<li><a href="http://nosotros.infojobs.net/prensa/notas-prensa" id="newsNotesFooter" onclick="xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo(),&#39;hnl_footer_go_to_notasPrensa&#39;,&#39;N&#39;);return true;" title="Notas de prensa publicadas por InfoJobs">Notas de prensa</a></li>
+									<li><a href="http://nosotros.infojobs.net/contacto-prensa" id="newsContactFooter" onclick="xt_click(this,&#39;C&#39;,infojobs.pageConfig.getXitiPortalLevelTwo(),&#39;hnl_footer_go_to_contactoPrensa&#39;,&#39;N&#39;);return true;" title="Contacto de prensa">Contacto de prensa</a></li>
+								</ul>
+							</div>
+						</li>
+
+						<!-- Seccion: Network -->
+						
+
+					</ul>
+				</div>
+				<div class="social-footer">
+					<div class="row row-faux">
+	
+						<!-- Social Area -->
+						<div class="col-6 col-12-medium">
+							<div class="col-child">
+								<dl class="social-icons">
+										<dt>¡Síguenos!</dt>
+										<dd>
+											<a class="icon-facebook icon-30px" href="http://www.facebook.com/InfoJobs" title="InfoJobs en Facebook"> <span class="hide">Facebook</span>
+											</a>
+										</dd>
+										<dd>
+											<a class="icon-twitter icon-30px" href="http://twitter.com/InfoJobs" title="InfoJobs en Twitter"> <span class="hide">Twitter</span>
+											</a>
+										</dd>
+										<dd>
+											<a class="icon-gplus icon-30px" href="http://plus.google.com/+infojobs" title="InfoJobs en Google+"> <span class="hide">Google+</span>
+											</a>
+										</dd>
+										<dd>
+											<a class="icon-youtube icon-30px" href="https://www.youtube.com/user/InfoJobsNET" title="InfoJobs en Youtube"> <span class="hide">Youtube</span>
+											</a>
+										</dd>
+								</dl>
+							</div>
+						</div>
+	
+						<!-- App Area -->
+						<div class="col-6 col-12-medium">
+							<div class="col-child">
+								
+			<ul class="apps list-inline">
+				<li>
+					<a href="http://app.appsflyer.com/net.infojobs.mobile.android?pid=Unknown&amp;c=Generic">
+						<img src="//media.infojobs.net/appgrade/pictures/pic-google-play.png" />
+					</a>
+				</li>
+				<li>
+					<a href="http://app.appsflyer.com/id382581206?pid=Unknown&amp;c=Generic">
+						<img src="//media.infojobs.net/appgrade/pictures/pic-app-store.png" />
+					</a>
+				</li>
+			</ul>
+		
+								
+							</div>
+						</div>
+	
+					</div>
+				</div>
+				<div class="footer-nav-bar">
+					<!-- Otras webs de Schibsted -->
+					<ul class="footer-nav-bar-sites list-inline">
+						<li>Otras webs de Schibsted:</li>
+						<li><a target="_blank" href="http://www.vibbo.com">vibbo</a></li>
+						<li><a target="_blank" href="http://www.fotocasa.es">Fotocasa</a>
+						</li>
+						<li><a target="_blank" href="http://www.coches.net">Coches.net</a>
+						</li>
+						<li><a target="_blank" href="http://motos.net">Motos.net</a>
+						</li>
+						<li><a target="_blank" href="http://www.milanuncios.com">Milanuncios</a>
+						</li>
+					</ul>
+
+					<!-- Epilogo legal Italia -->
+					
+
+					<!-- Logos Propiedad -->
+					<ul class="footer-nav-bar-badges list-inline margin-top">
+						
+						<li><a href="http://www.schibsted.es" title="Schibsted Spain"> <img src="//media.infojobs.net/appgrade/pictures/pic-scm-logo.png" />
+						</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+		<!-- CrazyEgg -->
+		<script id="crazyEgg" type="text/javascript">
+				setTimeout(function() { 
+					var a = document.createElement("script"); 
+					var b = document.getElementsByTagName("script")[0]; 
+					a.src = document.location.protocol + "//script.crazyegg.com/pages/scripts/0028/5602.js?" + Math.floor(new Date().getTime()/3600000); 
+					a.async = true;
+					a.type = "text/javascript";
+					b.parentNode.insertBefore(a,b)
+				}, 1);
+			</script>
+	
+		</div>
+		<div>
+		<div class="slotbanner-aside">
+			<div class="slotbanner-fixed">
+				<div id="_stag_Middle1"></div>
+				<div id="_stag_Middle2"></div>
+				 
+				<div id="_stag_x90"></div>
+			</div>
+		</div>
+		
+  	</div>
+		<div></div>
+	</div>
+ </div>
+<!-- TAGS DE CRITEO -->
+
+			<script type="text/javascript">
+window.criteo_q = window.criteo_q || [];
+window.criteo_q.push(
+{ event: "setAccount", account: 5426}, 
+{ event: "setCustomerId", id: "" }, 
+{ event: "setSiteType", type: "d"}, 
+{ event: "viewItem", item: "ad21b1235e441aaa961046b96d5e29"}
+);
+</script>
+		
+
+<script type="text/javascript" src="//pao.scmspain.com/Scripts/oas_analytics.js"></script><script type="text/javascript">/*<![CDATA[*/
+var posicionesPosibles = eval('( [{"position":"Top1","mediaQuery":"(min-width: 768px)"},{"position":"Middle1","mediaQuery":"(min-width: 1256px)"},{"position":"Middle2","mediaQuery":"(min-width: 1256px)"},{"position":"x90","mediaQuery":"(min-width: 768px) and (max-width: 1255px)"}] )'); 
+var posicionesVisibles=''; 
+for(index=0; index<posicionesPosibles.length; index++){ 
+if ( !posicionesPosibles[index].mediaQuery || posicionesPosibles[index].mediaQuery == '' || window.matchMedia( posicionesPosibles[index].mediaQuery ).matches) { 
+if(posicionesVisibles.length>0){ 
+posicionesVisibles += ','; 
+}posicionesVisibles +=posicionesPosibles[index].position; 
+}}infojobs.banner.createBannerRequest({"hueco":"Oficha","pos":""+posicionesVisibles,"serverUrl":"//pao.scmspain.com","site":"infojobsnet","queryAtts":{"oasOfferContractType":"1","oasDetailid":"ad21b1235e441aaa961046b96d5e29","oasOfferAcademicLevel":"160","IJportal":"ij","hueco":"Oficha","oasOfferSalaryMax":"1200","oasOfferSegment":"11","oasOfferGeoRegion":"33","oasCompanyProfileid":"98565457555750671111095016105953407009","oasOfferCountry":"17","oasOfferSubcategory":"3123","oasOfferSalaryMin":"900","oasOfferExperience":"6","oasOfferCategory":"180","oasCompanyid":"98565457555750671111095016105953401586","oasOfferGeoCity":"san-agustin-del-guadalix-madrid","IJOEmp":"como-me-cortas-s-l","oasOfferJobLevel":"3","wsite":"infojobs","oasOfferSalaryRange":"2"}},true);/*]]>*/</script><div id='Hidden_stag_Top1' style='display: none;'>
+<script type="text/javascript">/*<![CDATA[*/
+if (typeof(OAS_RICH) != 'undefined') {OAS_RICH('Top1');}/*]]>*/
+</script>
+</div>
+<div id='Hidden_stag_Middle1' style='display: none;'>
+<script type="text/javascript">/*<![CDATA[*/
+if (typeof(OAS_RICH) != 'undefined') {OAS_RICH('Middle1');}/*]]>*/
+</script>
+</div>
+<div id='Hidden_stag_Middle2' style='display: none;'>
+<script type="text/javascript">/*<![CDATA[*/
+if (typeof(OAS_RICH) != 'undefined') {OAS_RICH('Middle2');}/*]]>*/
+</script>
+</div>
+<div id='Hidden_stag_x90' style='display: none;'>
+<script type="text/javascript">/*<![CDATA[*/
+if (typeof(OAS_RICH) != 'undefined') {OAS_RICH('x90');}/*]]>*/
+</script>
+</div>
+<script type="text/javascript">/*<![CDATA[ */
+if (document.getElementById && document.createTextNode) {
+	jQuery(document).ready(function () {
+	infojobs.banner.moveBanners('Top1,Middle1,Middle2,x90');
+});}/*]]> */
+</script>
+    <script type='text/javascript'>
+		//<![CDATA[
+		$(function() {
+			var _total = 10;
+			var _categoryid = 180;
+			var _subcategoryid = 3123;
+			var _provinceid = 33;
+            
+            var _puestoNormalizado = '';
+
+				_puestoNormalizado = 'PELUQUERO';	
+           
+			var _oName = 'Oficial peluquería';
+        	        	
+			var _querystring = "utm_source=infojobs.net&utm_medium=referral&utm_term=[" + _oName + "]&utm_content=CFS%20IJ%20oferta&utm_campaign=infojobs_[lectiva]&welcome=1#xtor=AL-228-[normal]-[ij]|[detalle_curso_galactico]";
+			var _querystring_mas_cursos = "welcome=1#xtor=AL-228-[normal]-[ij]|[mas_cursos_galactico]"; 
+			var _querystring_logo = "welcome=1#xtor=AL-228-[normal]-[ij]|[logo_galactico]"; 
+			var _search = "";
+			var _k = "Infojobs Lectiva";
+			var _show = (!$("div.cabecera-corporativa").length);
+			var _showExecutive = (!$('#job.executive,.icon-executive').length);
+			var _OV = 1147;
+
+		    if (location.href.search('IJ_PUSH')!=-1) {
+		        $.cookie('IJ.Push', '', { path: '/' });
+		        _OV='1153';
+		    }
+		          
+		    if ($.cookie('IJ.Push')) {
+		        _OV='1153';
+		    }			
+
+    
+
+			// Remove courses, if found
+			if (_showExecutive) {
+				if ($('h1.heading-a').length)
+					return true;
+					
+				if ($("#courses")) $("#courses").remove();
+
+				if (_show)
+					$("<div style='margin:0px 20px 20px 30px;font-size:16px;border:1px solid #d5e1e5'><strong style='padding:15px 10px 10px;display:block;border-bottom:1px solid #d5e1e5;font-size:18px;background:#f2f2f2;text-align:center'>Amplía tu formación</strong><ul id='side_courses' style='list-style-type: none;padding:0px;margin:0px'></ul>        <a href='http://www.lectiva.com/buscar.htm?" + _querystring_mas_cursos + "' style='display:block;text-align:center;padding:10px;text-decoration:none;font-size:16px;background:#f2f2f2;text-decoration:underline'> Ver más cursos</a></div>").insertAfter($("#sendMailModal").parent().parent());
+
+				var _url = "//services.lectiva.com/cfs/async.aspx?i=6&tr=1&ov="+_OV+"&morefields=1&tc=" + _total + "&il=" + _provinceid + "&ic=" + _categoryid + "&is=" + _subcategoryid;
+				
+
+				if (_querystring.length)
+					_url += "&qp=" + encodeURIComponent(_querystring);
+				
+				if(_puestoNormalizado.length)
+					_url += "&ipn=" + _puestoNormalizado;
+
+				$.ajax({
+					url: _url,
+					dataType: "jsonp",
+					success: function (result) { cfs_render(result); }
+				});
+			}
+	 
+
+			function courses_without_excluded(courses) {
+				var show_course = true;
+				var cou_cookie = $.cookie('IJ.BusquedaOfertas.CursosExcluidos');
+				
+				if (cou_cookie) {
+					var cou_ids = cou_cookie.split(',');
+					
+					for (j=0; j< courses.length; j++) {
+						for (i=0; i<cou_ids.length; i++) {
+							if (cou_ids[i] == courses[j].id)
+								courses.splice(j, 1);
+						}
+					}
+				}
+			}
+
+			function cfs_render(courses) {
+				courses_without_excluded(courses);
+			 
+				 if (courses.length) {
+					 $.each(courses, function(index, course) {
+						 if (index < 3
+							&& _show
+							&& _showExecutive)
+						{
+							cfs_include_course_side(course);
+							
+							if ($(".secondary-content").height()+100>=$(".main-content").height()) {
+								$(".main-content").css('min-height',$(".secondary-content").height()+100);
+								$("#job .DatosTabulados.info-proceso").css('margin-top','100px');
+							}
+						}
+					 });
+				}
+			}
+	 
+			$("#side_courses li").live("click", function(e) {
+					location.href = $(this).children('a').attr('href');
+			});
+
+			function cfs_include_course_side(course) {
+				$("#side_courses").append($(
+					"<li style='margin:auto;padding:20px;font-size:16px;line-height:18px;background:#FFF;border-bottom:1px solid #d5e1e5;cursor:pointer'>" +
+					"	<a href='" + course.url + "' style='text-decoration:none'><b>" + course.name + "</b></a>" +
+					"	<p style='margin:5px 0px 0px;color:#666666;font-weight:normal;font-size:14px;line-height:16px'>" + course.degree + " | " + (course.place != "" ? course.place : course.ubication) + "</p>" +
+					"</li>"
+				));
+			}
+		});
+		//]]>
+	</script>
+<script type="text/javascript">
+	// <![CDATA[
+
+	jQuery(document).ready(function() {
+		prepareXiti();
+	});
+	
+	// ]]>
+</script>
+
+	<script>
+	  var _comscore = _comscore || [];
+	  _comscore.push({ c1: "2", c2: "13013988" });
+	  (function() {
+	    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+	    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+	    el.parentNode.insertBefore(s, el);
+	  })();
+	</script>
+	<noscript>
+	  <img src="http://b.scorecardresearch.com/p?c1=2&c2=13013988&cv=2.0&cj=1" />
+	</noscript>
+<script type="text/javascript">
+	// <![CDATA[
+	xitiCookieDomain = '.infojobs.net';
+	xtnv = document; 									//parent.document or top.document or document
+	xtsd = "http://logc194";
+	xtsite = "463787"; 					
+	xtn2 = "1";        				
+	xtpage = "infojobs.net::jobsearch::view-offer::view-offer-index.xhtml";			
+	xtdi = "";        									 
+	xt_multc = "&f6=Al menos 2 años&f7=San Agustin Del Guadalix (Madrid)&f8=2&f9=28274859950&f12=&f20=Otras actividades&f11=COMPLETA&f10=web&f16=Como me Cortas S.L.&f15=0&f14=false&f13=&f19=false&f18=Indefinido&f17=false&f1=España-Madrid&f3=Sin especificar&f2=Otros&f5=28271713550&f4=Otros títulos, certificaciones y carnés";		
+
+	xt_ac = "";							
+	
+	
+	xt_gi = "";					
+	// xt_pi = "&f6=Al menos 2 años&f7=San Agustin Del Guadalix (Madrid)&f8=2&f9=28274859950&f12=&f20=Otras actividades&f11=COMPLETA&f10=web&f16=Como me Cortas S.L.&f15=0&f14=false&f13=&f19=false&f18=Indefinido&f17=false&f1=España-Madrid&f3=Sin especificar&f2=Otros&f5=28271713550&f4=Otros títulos, certificaciones y carnés";		
+	
+
+	if (window.xtparam!=null) {
+			window.xtparam = "&ac="+xt_ac+xt_multc + xt_gi;
+	} else {
+			window.xtparam = "&ac="+xt_ac+xt_multc + xt_gi;
+	}
+	
+	
+	function prepareXiti() {
+		track("P");
+		jQuery.getScript("http://es-static0.infojobs.com/xiti_core.js?v=-628186985" , prepareClicks);
+	}
+	
+	// ]]>
+</script>
+<noscript>
+	<p class="hide">
+		<img width="1" height="1" src="http://logc194.xiti.com/hit.xiti?s=463787&amp;s2=1&amp;p=infojobs.net::jobsearch::view-offer::view-offer-index.xhtml&amp;di=&amp;an=&amp;ac=&amp;" alt="" />
+	</p>
+</noscript>
+
+
+<script type="text/javascript">
+	// <![CDATA[
+
+	function prepareClicks() {
+		track("L");
+	
+		try{
+			aSelector = jQuery("a");
+			prepareClickOuts(aSelector);
+			customXitiClick();
+			
+		} catch(err){
+			try{
+				saveError(err, err.message);
+			}catch(err2){
+				var imgSrc = '/js/pix.xhtml?e=' + err + '&msg=' + window.self.location + '&t=' + (new Date()).getTime();
+				(new Image()).src = imgSrc;
+			}
+		}
+		
+	}
+
+
+	function prepareClickOuts(aLinks) {
+		aLinks.click(function() {
+			if(isClickOut(this.href)) {
+				var href = this.href;
+				sNext = href.indexOf("?", 0)>0?href.substr(0, href.indexOf("?", 0)):href;
+				var clickLabel = getXitiElementName(this);
+				clickLabel = (clickLabel == "")?xtpage + "~" + sNext:xtpage + "~" + clickLabel;
+				clickLabel = clickLabel.replace(" ", "");
+				setXitiEvent(this, clickLabel, "S", 1);
+			} else if (isOpenNewWin(this.href)){
+				this.target = "_blank";
+			}
+		});		
+	}
+	
+	function isOpenNewWin(sUrlDest) {
+		return isGoogleLink(sUrlDest);
+	}
+	
+	function isGoogleLink(sUrlDest) {
+		googleleadsPatt = new RegExp("googleads.g.doubleclick.net\/", "i");
+		googlecomPatt = new RegExp("www.google.com\/", "i");
+		var isGoogle = googleleadsPatt.test(sUrlDest) || googlecomPatt.test(sUrlDest);
+		return isGoogle;
+	}
+	
+	
+	function isClickOut(sUrlDest) {
+		sUrlDestFiltered = (sUrlDest.indexOf("?", 0)>0)?sUrlDest.substr(0, sUrlDest.indexOf("?", 0)):sUrlDest;
+		bClickOut = false;
+		sbDomain = getBaseDomain();
+		
+		//formacionPatt = new RegExp("formacion.infojobs.net\/", "i");
+		planCarreraPatt = new RegExp("plandecarrera.infojobs.net\/", "i");
+		
+		clickInPatt = new RegExp(sbDomain + "\/", "i");
+		bannerPatt = new RegExp("pao.scmspain.com\/", "i");
+		jscallPatt = new RegExp("javascript:", "i");
+		if(!isSocialMenuSiteLink(sUrlDest)){
+			//if (formacionPatt.test(sUrlDestFiltered) || planCarreraPatt.test(sUrlDestFiltered)) {
+			if ( planCarreraPatt.test(sUrlDestFiltered) ) {
+				bClickOut = true;
+			} else if (!clickInPatt.test(sUrlDestFiltered) 
+					&& !bannerPatt.test(sUrlDestFiltered) 
+					&& !jscallPatt.test(sUrlDestFiltered)
+					&& !isGoogleLink(sUrlDestFiltered)) {
+				bClickOut = true;
+			}
+		}
+		return bClickOut;
+	}
+	
+	function getBaseDomain(){
+		var hostname = window.location.hostname;
+		return hostname.substring(hostname.lastIndexOf(".",hostname.lastIndexOf(".")-1));
+	}
+	
+	function isSocialMenuSiteLink(sUrlDest){
+		var isSMSL = false;
+		var sites=jQuery("div.sites a[href]");
+		if(sites != null){
+			for(var i=0;isSMSL == false &&  sites.length>i ;i++){
+				if(sUrlDest == sites[i].href){
+					isSMSL = true;
+				}
+			}
+		}
+		return isSMSL;
+	}
+	
+	
+	function setXitiEvent(anchor, name, type, openwin) {
+		var oldxtkey = xtkey;
+		xtkey = true;
+		
+		xt_click(anchor,'C', xtn2, name, type, anchor.href, openwin);
+		xtkey = oldxtkey;
+		return false;
+	}
+	
+	
+	function customXitiClick(){
+		var customElems = [['#candidate-login', '.header.c.login.', 'N'], 
+						['#candidate-signin', '.header.c.registration.', 'N'], 
+						['#im-candidate', '.header.c.login.', 'N'],
+						['#im-employer', '.header.e.login', 'N'],
+						['#showMoreOffers', '.home_ver_todas_ofertas', 'N'],
+						['#show_ultima_ofertas', '.home_ver_mas_ofertas', 'A']];
+		
+		for(i=0; i<customElems.length; i++) {
+			var xitiContextData = {};
+			xitiContextData.xitiName = customElems[i][1];
+			xitiContextData.xitiType = customElems[i][2];
+			
+			xitiFunction = function(eventDetails) {
+				var href = eventDetails.currentTarget.href.replace(location.protocol+"//"+location.hostname, "");
+				clickLabel = xtpage + this.xitiName;
+				
+				setXitiEvent(eventDetails.currentTarget, clickLabel, this.xitiType, 0);
+			};
+			
+			// The references to this within the xitiFunction are replaced by the object xitiContextData
+			// because the references to external variables as the vector index (i) are dinamically binded by default
+			xitiCallWithContext = jQuery.proxy(xitiFunction, xitiContextData);
+			
+			jQuery(customElems[i][0]).click(xitiCallWithContext);
+		}
+	}	
+	
+	
+	
+	function getXitiElementName(anchor) {
+		var name = "";
+		
+		if (anchor.name) {
+			name = anchor.name;
+		} else if (anchor.href) {
+			name = anchor.href.replace(location.protocol+"//"+location.hostname, "");
+			name = name.indexOf("?", 0)>0?name.substr(0, name.indexOf("?", 0)):name;
+		} else if (anchor.id) {
+			name = anchor.id
+		}
+		
+		return name;
+	}
+	
+	// ]]>
+</script>
+<script type="text/javascript">
+	var ttr = [{"page":"jobsearch::search-results::search-results-list.xhtml", "event":"SEARCH_RESULTS_PAGE_VIEWS", "time":"P"},
+			{"page":"candidate::cv-views::companies.xhtml", "event":"WHO_SEES_ME_CLIENT", "time":"B"}, 
+			{"page":"candidate::applications::applications-list.xhtml", "event":"APPLICATION_TRACKING_CLIENT", "time":"L"},
+			{"page":"employer::manage::offers-management-view.xhtml", "event":"OFFERS_MNGM_CLIENT", "time":"P"}];
+	
+	
+	function track(when) {
+		for(i=0; i<ttr.length; i++) {
+			if (xtpage.indexOf(ttr[i].page) > 0 && (ttr[i].time == "B" || ttr[i].time == when) ) {
+				Tracking.Event.doTrace(ttr[i].event, null);
+			}
+		}
+	}
+</script>
+
+<form id="rux" action="">
+	<div><input type="hidden" name="ruxsent" id="ruxsent" value="false" /></div>
+</form>
+<script type="text/javascript">
+	//<![CDATA[
+	
+	addEvt = function () {
+		var listenerFunction = function (fn, e) {
+			var target = e.target || e.srcElement;
+			fn(e, target);
+		}
+
+		if (window.addEventListener) {
+			return function(el, type, fn, capture) {
+				el.addEventListener(type, function (e) {listenerFunction(fn,e)} , (!!capture));
+			};
+			
+		} else if (window.attachEvent) {
+			return function(el, type, fn) {
+				el.attachEvent("on" + type, function (e) {listenerFunction(fn,e)});
+			};
+
+		} else {
+			return function(){};
+		}
+
+	}();
+	function loadTime(e) {		
+		try {
+			var ruxsent = document.getElementById("ruxsent");
+			
+			if (ruxsent.value=="false") {
+				(new Image()).src = '/timer.jpeg?reqId=efd5827d-e30f-4967-8030-20153813c94a&t1=' + rux_time1 + '&t2=' + (new Date()).getTime() + '&_c=D&pn=ij.presentacion.controllers.VerOfertaController.doGetOfertaEmpleo';
+				ruxsent.value = true;
+			}			
+			
+		} catch(err) {
+			(new Image()).src = '/timer.jpeg?reqId=efd5827d-e30f-4967-8030-20153813c94a&error=true' + '&_c=D';
+		}
+	}
+
+	addEvt(window, 'load',loadTime, false);
+
+	// ]]>
+</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"applicationID":"4761293","applicationTime":61,"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"993ef354c1","transactionName":"YVUGNxRWV0FVUUJfW1gfNxMUXldVd11YQkZZXAgGFBhPV0YfWVBRREQFTR5fTV9YEh5xcWIZ","agent":"","errorBeacon":"bam.nr-data.net"}</script></body>
+</html>
