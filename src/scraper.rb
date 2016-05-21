@@ -1,6 +1,7 @@
 #!/usr/bin/ruby
 require 'nokogiri'
 require 'open-uri'
+require 'fileutils'
 
 require './positionExtractor.rb'
 require './companyExtractor.rb'
@@ -50,5 +51,6 @@ directory = '../html/infojobs/positions'
 Dir.foreach(directory) do |file|
   next if file == '.' or file == '..'
   scraper.getOffers("#{directory}/#{file}")
+  File.delete "#{directory}/#{file}"
   puts '========================'
 end
