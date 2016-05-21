@@ -11,9 +11,9 @@ class InfojobsScraper
         @companyExtractor = CompanyExtractor.new
     end
 
-    def getOffers()
+    def getOffers(url)
         positionCss = @positionExtractor.getCssPosition()
-        doc = Nokogiri::HTML(open("../docs/list.xhtml").read)
+        doc = Nokogiri::HTML(open(url).read)
 
         doc.css(positionCss).each do |position|
             infoPosition = getInfoPosition(position)
@@ -45,4 +45,4 @@ class InfojobsScraper
 end
 
 scraper = InfojobsScraper.new
-scraper.getOffers
+scraper.getOffers("../docs/list.xhtml")
