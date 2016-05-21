@@ -45,4 +45,10 @@ class InfojobsScraper
 end
 
 scraper = InfojobsScraper.new
-scraper.getOffers("../docs/list.xhtml")
+directory = '../html/infojobs/positions'
+
+Dir.foreach(directory) do |file|
+  next if file == '.' or file == '..'
+  scraper.getOffers("#{directory}/#{file}")
+  puts '========================'
+end
